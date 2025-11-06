@@ -48,4 +48,5 @@ A interface foi criada com **HTML e CSS puro**, sem uso de frameworks, priorizan
 - Paleta de cores moderna com contraste adequado
 
 ## Demonstração
-![Tela da Lista de Contatos]()
+![Tela da Lista de Contatos](IMG/Projeto_final.png)
+
