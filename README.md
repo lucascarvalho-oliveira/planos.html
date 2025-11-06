@@ -67,5 +67,6 @@ Ele demonstra domínio das bases de HTML e CSS, e pode servir como projeto de po
 Com pequenas expansões — como interatividade em JavaScript e integração com back-end — ele pode evoluir para um site comercial completo.
 
 ## Licença
-**Autor:** Lucas Carvalho de Jesus Oliveira
+**Autor:** Lucas Carvalho de Jesus Oliveira <br>
 Email: lucascarvalhoptc06@gmail.com
+
