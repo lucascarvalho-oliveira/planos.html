@@ -32,3 +32,20 @@ A interface foi criada com **HTML e CSS puro**, sem uso de frameworks, priorizan
    ```bash
    git clone https://github.com/lucascarvalho-oliveira/planos.git
    ```
+2. **Abra o arquivo HTML no navegador**
+- Localmente: clique duas vezes em 'planos.html'
+- Ou acesse a versão online: 'MyServer - GitHub Pages'
+
+## Funcionalidades  
+
+- Exibição de três planos de hospedagem: **Essencial**, **Premium** e **Gold** 
+- Cada plano mostra:
+  -  Preço mensal
+  -  Recursos disponíveis
+  -  Botão de assinatura
+- Layout **totalmente responsivo** (ajuste automático para telas menores)  
+- Barra de navegação com destaque para a seção ativa
+- Paleta de cores moderna com contraste adequado
+
+## Demonstração
+![Tela da Lista de Contatos]()
