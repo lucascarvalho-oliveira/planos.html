@@ -1,37 +1,41 @@
-# MyServer – Página de Planos de Hospedagem  
+# MyServer – Página de Planos de Hospedagem
 
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)  
-![License](https://img.shields.io/badge/Licença-MIT-blue)  
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+![License](https://img.shields.io/badge/Licença-MIT-blue)
 ![Tech](https://img.shields.io/badge/Feito%20com-HTML%20%26%20CSS-orange)
 
 ---
 
-## Descrição  
+## Visão Geral
 
-O projeto **MyServer** é uma página estática desenvolvida para exibir planos de hospedagem de maneira clara, moderna e responsiva.  
-O objetivo é simular uma **landing page comercial** de uma empresa de hospedagem de sites, destacando planos, valores e benefícios de forma visualmente organizada.  
+**MyServer** é uma página estática criada para apresentar planos de hospedagem de forma clara, moderna e responsiva.  
+O objetivo é simular uma **landing page comercial**, exibindo três planos com preços, recursos e destaque visual.
 
-A interface foi criada com **HTML e CSS puro**, sem uso de frameworks, priorizando a **estrutura semântica** e o **design responsivo**.
+Desenvolvido com **HTML e CSS puro**, priorizando organização, semântica e responsividade.
 
-> 🔗 Acesse o projeto publicado: [https://lucascarvalho-oliveira.github.io/planos.html](https://lucascarvalho-oliveira.github.io/planos.html)
-
----
-
-## Tecnologias Utilizadas  
-
-- **HTML5** – Estrutura e semântica da página  
-- **CSS3** – Estilização e layout responsivo  
-- **Google Fonts** – Tipografia (Roboto, Oswald e variações)  
-- **Flexbox** – Organização e alinhamento dos elementos  
+**Acesse a versão publicada:**  
+https://lucascarvalho-oliveira.github.io/planos.html
 
 ---
 
-## Instalação  
+## 🛠 Tecnologias Utilizadas
 
-1. **Clone o repositório**  
-   ```bash
-   git clone https://github.com/lucascarvalho-oliveira/planos.html.git
+- **HTML5**
+- **CSS3**
+- **Google Fonts**
+- **Flexbox**
+- **Responsividade (Media Queries)**
+
+---
+
+##  Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/lucascarvalho-oliveira/planos.html.git
    ```
+
 2. **Abra o arquivo HTML no navegador**
 - Localmente: clique duas vezes em 'planos.html'
 - Ou acesse a versão online: 'MyServer - GitHub Pages'
@@ -43,21 +47,22 @@ A interface foi criada com **HTML e CSS puro**, sem uso de frameworks, priorizan
   -  Preço mensal
   -  Recursos disponíveis
   -  Botão de assinatura
-- Layout **totalmente responsivo** (ajuste automático para telas menores)  
+- Layout **totalmente responsivo** (desktop → celular)  
 - Barra de navegação com destaque para a seção ativa
-- Paleta de cores moderna com contraste adequado
-
+- Paleta escura com bom contraste visual
+  
 ## Demonstração
 ![Tela de Planos](IMG/Projeto_final.jpeg)
 
 ## Análise Crítica
 **Pontos Fortes:**
-- Código limpo e organizado, com boa semântica.
-- Uso correto de Flexbox e media queries para responsividade.
-- Design coerente e visualmente agradável.
+- Código organizado e fácil de manter
+- Estrutura semântica adequada
+- Responsividade bem implementada
+- Estilo limpo e visual profissional
 
 **Possíveis Melhorias Futuras:**
-- Implementar JavaScript para tornar os botões funcionais (ex: redirecionar para uma página de checkout).
+- IAdicionar interatividade usando JavaScript
 - Criar um arquivo JSON para armazenar os planos e gerar o conteúdo dinamicamente.
 
 ## Conclusão
@@ -69,6 +74,7 @@ Com pequenas expansões — como interatividade em JavaScript e integração com
 ## Licença
 **Autor:** Lucas Carvalho de Jesus Oliveira <br>
 Email: lucascarvalhoptc06@gmail.com
+
 
 
 
