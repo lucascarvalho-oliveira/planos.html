@@ -30,7 +30,7 @@ A interface foi criada com **HTML e CSS puro**, sem uso de frameworks, priorizan
 
 1. **Clone o repositório**  
    ```bash
-   git clone https://github.com/lucascarvalho-oliveira/planos.git
+   git clone https://github.com/lucascarvalho-oliveira/planos.html.git
    ```
 2. **Abra o arquivo HTML no navegador**
 - Localmente: clique duas vezes em 'planos.html'
@@ -69,5 +69,6 @@ Com pequenas expansões — como interatividade em JavaScript e integração com
 ## Licença
 **Autor:** Lucas Carvalho de Jesus Oliveira <br>
 Email: lucascarvalhoptc06@gmail.com
+
 
 
