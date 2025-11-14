@@ -6,153 +6,184 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #222940;
+    background-image: url(../IMG/Design\ sem\ nome.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .topo {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
-    background-color: #000000;
-    height: 90px;
+    background-color: #0A0B26;
+    padding: 30px 15px;
 }
 
 .topo_title {
     text-transform: uppercase;
-    margin-left: 30px;
-    color: #ffff;
+    font-size: 20px;
+    color: #ffffff;
 }
 
 .topo_button ul {
     display: flex;
     gap: 20px;
     list-style: none;
-}
-
-.topo_button li {
-    display: inline-block;
-    margin-right: 20px;
+    font-weight: bold;
 }
 
 .topo_button a {
     text-decoration: none;
+    color:  #ffffff;
     padding: 15px;
-    border-radius: 5px;
-    color: #ffff;
 }
 
 .color a {
-    background-color: #6089BF;
-    color: #000000;
+    background-color: #23288C;
+    border-radius: 10px;
+    cursor: default;
+}
+
+.meio {
+    width: 90%;
+    max-width: 1200px;
+    margin: 10vh auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main_title {
-    margin: 120px 0;
     text-transform: uppercase;
     font-size: 50px;
-    text-align: center;
-    color: #ffff;
+    color: #ffffff;
 }
 
 .content {
+    width: 90%;
+    max-width: 1200px;
+    margin-top: 150px;
+
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    width: 60%;
-    margin: 0 auto;
+    gap: 50px;
 }
 
 .planos {
-    background-color: #1d1c1c;
-    width: 350px;
-    padding: 30px 0 0 25px;
-    border-radius: 10px;
-    height: 450px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+
+    background-color: #07081d;
+    border-radius: 10px;
+    flex: 1;
+    margin: 0 10px;
+    min-height: 400px;
+    
 }
 
 .planos h2 {
+    margin-top: 15px;
+
     text-transform: uppercase;
-    margin-bottom: 30px;
-    width: 300px;
-    border-bottom: 2px solid #ffff;
-    padding-bottom: 5px;
-    color: #ffff;
+    border-bottom: 2px solid #23288C;
+    font-weight: 900;
+    color: #ffffff;
 }
 
 .planos p {
-    font-size: 30px;
-    font-weight: 650;
-    margin-bottom: 20px;
-    color: #ffff;
+    margin: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ffffff;
 }
 
 .planos span {
     font-size: 15px;
 }
 
-.content_plano ul {
-    list-style: disc;
-}
-
-.content_plano li::marker {
-    color: #0B38BF ;
+.content_plano {
+    margin-left: 20px;
 }
 
 .content_plano li {
-    margin: 10px 0 0 20px;
-    color: #ffff;
+    margin-bottom: 5px;
+    color: #ffffff;
 }
 
 .plano_button {
     display: flex;
     justify-content: center;
     margin: auto 0 40px 0;
-    list-style: none;
-    text-transform: uppercase;
-    font-weight: 600;
 }
 
 .plano_button a {
-    background-color: #6089BF;
+    width: 90%;
+    padding: 13px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+
     text-decoration: none;
-    padding: 15px 95px;
-    border-radius: 10px;
+    background-color: #ffffff;
     color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .plano_button a:hover {
-    background-color: #C9EEF2;
+    color: #ffffff;
+    background-color: #23288C;
 }
 
-@media (max-width: 1200px) {
-    .content {
-        flex-direction: column;
-        align-items: center;
-    }
+.footer {
+    width: 100%;
+    background-color: #07081d;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 80px;
+}
 
+.footer p {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #23288C;
+}
+
+
+@media (max-width: 768px) {
     .topo {
+        width: 100%;
         flex-direction: column;
-        padding: 20px;
-        gap: 60px;
-    }
-
-    .topo_button ul {
-        background-color: #000000;
-        padding: 30px;
+        gap: 30px;
     }
 
     .main_title {
-        margin-top: 200px;
+        text-transform: uppercase;
+        font-size: 40px;
+        text-align: center;
     }
 
-    .planos {
-        width: 95%;
-        margin-bottom: 30px;
+    .content{
+        flex-direction: column;
     }
 }
